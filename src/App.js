@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchCatFacts } from "./actions/catFactsActions";
+import { fetchCatFacts } from "./redux/actions/catFactsActions";
 import { Audio } from "react-loader-spinner";
 
 import "./App.css";

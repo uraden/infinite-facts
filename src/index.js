@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
-import catFactsReducer from './actions/catFactsReducer';
+import catFactsReducer from './redux/reducer/catFactsReducer';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
